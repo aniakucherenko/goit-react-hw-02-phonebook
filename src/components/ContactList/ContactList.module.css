@@ -10,15 +10,16 @@
   }
   
   .contactListItemText {
-    min-width: 50vw;
+  width: 30vw;
   display: flex;
   font-weight: bold;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   font-size: 20px;
   padding: 32px;
   border-radius: 12px;
   background-color: hsla(0, 0%, 47%, 0.2);
+  border: 2px solid blanchedalmond;
   box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
   }
   
