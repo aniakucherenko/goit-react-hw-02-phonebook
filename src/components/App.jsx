@@ -69,9 +69,12 @@ render(){
         {contacts.length === 0 ? (
           <h3>There are no contacts in your phone book.</h3>
         ) : (
+        
           <ContactList
+          
             contacts={filteredContacts}
             onDeleteContact={this.deleteContactItem}
+          
           />
         )}
    </div>
