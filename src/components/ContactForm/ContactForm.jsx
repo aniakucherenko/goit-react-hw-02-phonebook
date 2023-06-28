@@ -19,7 +19,10 @@ event.preventDefault()
 const {name, number} = this.state
 
 this.props.addContact({name,number})
-this.setState(this.state)
+this.setState({
+    name: '',
+    number: '',
+    })
 }
 
 render() {
